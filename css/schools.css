@@ -1,0 +1,16 @@
+/** * { background:rgba(255,0,0,.1) !important }/**/
+#main { overflow:hidden }
+
+#left { width:620px; float:left }
+  ul#featured { list-style:none; width:auto; padding:.6em }
+    #featured li { overflow:hidden; margin-bottom:1em }
+    #featured img { float:left; margin-right:1em }
+    #featured .sharing { display:none }
+
+#right { width:300px; float:right }
+  #right ul { width:250px }
+  #right .vcard { background:#f6f6f6; border:1px dotted #ccc; border-radius:5px;
+    padding:.6em; margin:0 0 2em }
+    #right .vcard .photo { float:right; margin:0 0 0 .6em; border:1px solid #ccc }
+    #right .vcard .n { font-size:114% }
+    #right .vcard .org { margin-top:1em }

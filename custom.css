@@ -1,0 +1,119 @@
+/*
+===================================================================================
+All style modification should be made in this file.  DO NOT MODIFY style.css!
+This makes it possible to update the core system and theme without destroying
+style changes.
+
+See the comment at the top of the style.css file for additional information.
+
+If you need any clarification, help, or suggestions, please check out the support 
+forums: http://support.8bit.io.
+===================================================================================
+*/
+
+body { background:#fff; font:13px/1.6 Verdana,Arial; color:#000 }
+#background_apple { position:fixed; width:466px; height:335px;
+  left:50%; top:18px; background:url(images/apple.png) no-repeat right 0; z-index:-1 } 
+#header { padding: 30px 0 0 }
+#logo { padding-left: 5px }
+#logo img { vertical-align:bottom }
+#slogan { clear:left; color:#598D3F; font:italic 18px/22px Georgia,'Times New Roman',serif;
+  letter-spacing:-0.8px; margin:0 0 8px 288px } 
+
+#content { margin-top:0; background:url(images/70-percent-white.png) /* IE sucks */;
+  background:rgba(255,255,255,.7); padding-bottom:50px }
+#content h2 { border-top:1px dotted #ddd; color:#333; padding-top:.3em; margin-bottom:10px;
+text-align:left; font-weight:normal }
+#content h3 { text-align:left; margin:2.6em 0 1em; font-size:15px; max-width:32em }
+#content a { text-decoration:none; color:#207AA7 }
+
+.post { padding:0; margin-top:1em }
+ 
+h1, .post .title, .post .title a:link { font-size:24px; line-height:1.1;
+  margin-bottom:.6em }
+h1, h2, h3, h4, h5, h6 { font-family:'Quattrocento Sans',Arial; line-height:1.4 }
+h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-size:12px }
+
+.navigation-container { background: url("images/MARBRI-110513-menubar.jpg") no-repeat 0 0 #fff;
+	border-bottom: 2px solid #ddd }
+.navigation { background:#fff; color:#333; padding: 0 5px; }
+.nav ul { color:#333 }
+.nav a:link, .nav a:visited { color: #6f6f6f; font:'Quattrocento Sans',Verdana;
+    padding: 12px 20px 0 5px; letter-spacing:0.03em }
+.nav a:hover { text-decoration: none; color: #C82E4A }
+
+.the_edit_link { background-color:rgba(0,0,0,.1) }
+.the_edit_link:hover { background-color:rgba(0,0,0,.4) }
+
+#main p {width:40em; text-align:justify; margin-bottom:1.6em }
+  
+#main ul { list-style:square; width:33em; background:#f6f6f6; padding:.6em;
+  padding-left:29px; border:1px dotted #ccc; margin-bottom:2em; 
+  border-radius:5px; -moz-border-radius:5px }
+  
+#main ol { list-style:decimal; width:33em; padding-left:2em; margin-bottom:1.6em }
+
+.vcard { overflow:hidden; margin:50px 0 }
+  .vcard img { float:left; margin-right:1.6em }
+  .vcard .fn, .vcard .email, .vcard .pn, .vcard .org, .vcard .adr, .vcard .title { display:block }
+  .vcard .adr, .vcard .org { font:italic 12px sans; color:#999 }
+  .vcard .title { color:#999 }
+  #signature .fn { font:30px 'Waiting for the Sunrise'; letter-spacing:.035em }
+  #signature .vcard .email,
+  #signature .vcard .pn,
+  #signature .vcard .org,
+  #signature .vcard .street-address { display:none }
+  
+#blurb p { width:430px }
+  
+#footer { background:#fff; color:#333; overflow:hidden; line-height:1.2; text-transform:none;
+  font-size:13px; padding:0; margin:0 }
+  #footer .col-full { border:1px dotted #ccc; border-bottom:0; border-radius:5px;
+    -moz-border-radius:5px } 
+  #footer a:link, #footer a:visited { color:#207AA7 }
+  #footer .section { width:209px; float:left; border-left:1px dotted #ccc;
+    padding:12px }
+    
+  #footer h6 { margin-bottom:15px } 
+   
+  #footer #equal_housing { border:0 }
+  #equal_housing img { float:left; margin:1em 1em 1em 0 }
+  
+  #links_footer ul { list-style:square inside; margin:1em 0 }
+  
+  #social_footer a { display:block; line-height:32px; padding-left:40px; margin:15px 0 }
+  #social_fb { background:url(images/facebook_32.png) no-repeat left  }
+  #social_tw { background:url(images/twitter_32.png) no-repeat left  }
+  #social_rss { background:url(images/rss_32.png) no-repeat left  }
+  
+  #contact_footer .vcard { line-height:1.6; margin:0 0 30px }
+  #contact_footer .vcard .photo,
+  #contact_footer .vcard .n,
+  #contact_footer .vcard .title { display:none }
+  #contact_footer .vcard .org { display:block; margin-top:1.6em }
+  
+  #footer #copy { color:#999; line-height:32px; font-size:12px }
+  
+
+.glass { background-color:transparent; background-color:rgba(0,0,0,.1);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);
+  zoom:1; overflow:hidden;
+  -moz-box-shadow:1px 1px 4px rgba(200, 200, 200, 0.6) inset, 1px 1px 3px rgba(0,0,0,.6);
+  -webkit-box-shadow:1px 1px 4px rgba(200, 200, 200, 0.6) inset, 1px 1px 3px rgba(0,0,0,.6);
+  box-shadow:1px 1px 4px rgba(200, 200, 200, 0.6) inset, 1px 1px 3px rgba(0,0,0,.6);
+  border:1px solid; border-color: #fff #ccc #fff #ccc; padding:1.6em; text-align:center;
+  color:#333; display:block } 
+  
+  .glass img { float:left; margin-right:16px }
+  
+.css3button { font-size:14px; padding:10px 20px; margin:10px; background:#B90000; color:#fff !important;
+    display:inline-block;
+    border-radius: 5px; -moz-border-radius: 5px; cursor:pointer;
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.25), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.25), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-transition:-webkit-box-shadow .25s linear; -moz-transition:-moz-box-shadow .25s linear; -o-transition:box-shadow .25s linear }
+.css3button:hover { text-decoration:none !important; 
+    -moz-box-shadow: 0 2px 10px rgba(185,0,0,.8), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 2px 10px rgba(185,0,0,.8), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 10px rgba(185,0,0,.8), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3) }

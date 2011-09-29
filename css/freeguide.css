@@ -1,0 +1,9 @@
+#subscription { width:33em; border:1px dotted #1D6695; overflow:hidden;
+  padding:1em; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+  margin:1.6em 0 }
+  #subscription label { display:block; overflow:hidden; margin:.6em 0; font-weight:bold }
+  #subscription label input { float:right; width:27em }
+  #subscription [type=submit] { padding:.6em 1.6em; float:right }
+
+#main p { overflow:hidden }
+#main p img { float:left; margin-right:1.6em }
