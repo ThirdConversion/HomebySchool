@@ -20,18 +20,18 @@ body { background:#fff; font:13px/1.6 Verdana,Arial; color:#000 }
 #slogan { clear:left; color:#598D3F; font:italic 18px/22px Georgia,'Times New Roman',serif;
   letter-spacing:-0.8px; margin:0 0 8px 288px } 
 
-#content { margin-top:0; background:url(images/70-percent-white.png) /* IE sucks */;
+#content { margin-top:0; background:url(images/70-percent-white.png) /* IE sucks - ha ha :P*/;
   background:rgba(255,255,255,.7); padding-bottom:50px }
 #content h2 { border-top:1px dotted #ddd; color:#333; padding-top:.3em; margin-bottom:10px;
-text-align:left; font-weight:normal }
-#content h3 { text-align:left; margin:2.6em 0 1em; font-size:15px; max-width:32em }
+text-align:left; font-weight:normal; }
+#content h3 { text-align:left; margin:2.6em 0 1em; font-size:15px; }
 #content a { text-decoration:none; color:#207AA7 }
 
 .post { padding:0; margin-top:1em }
  
 h1, .post .title, .post .title a:link { font-size:24px; line-height:1.1;
   margin-bottom:.6em }
-h1, h2, h3, h4, h5, h6 { font-family:'Quattrocento Sans',Arial; line-height:1.4 }
+h1, h2, h3, h4, h5, h6 { font-family:'Quattrocento Sans',Arial; line-height:1.4; max-width:40em }
 h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-size:12px }
 
 .navigation-container { background: url("images/MARBRI-110513-menubar.jpg") no-repeat 0 0 #fff;
@@ -65,6 +65,18 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
   #signature .vcard .street-address { display:none }
   
 #blurb p { width:430px }
+
+#box p {width:430px; list-style:square; width:33em; background:#f6f6f6; padding:.6em;
+  padding-left:29px; border:1px dotted #ccc; margin-bottom:2em; 
+  border-radius:5px; -moz-border-radius:5px }
+  
+.yesyestable {border-collapse:collapse; width:400px}
+
+.yesyestable, .yesyesth, .yesyestd { border:1px solid black; }
+
+.yesyestd { padding:4px;}
+
+.yesyesthead .yytrtitle { text-align:center; background-color:#598D3F; }
   
 #footer { background:#fff; color:#333; overflow:hidden; line-height:1.2; text-transform:none;
   font-size:13px; padding:0; margin:0 }

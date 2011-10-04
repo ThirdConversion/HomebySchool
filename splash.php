@@ -26,7 +26,7 @@
 
       <div id=blurb>
         <p>Many people who relocate to the Washington, DC metro area (which includes
-        Fairfax County, VA), are concerned with finding a home by school boundary.
+        Fairfax County, VA), are concerned with finding a home by school boundary.</p>
 
         <p>In Fairfax County, Virginia, if you want children to go to a specific
         public school, the only way to ensure it is to live within the boundaries
@@ -35,7 +35,7 @@
 
         <p>This is why most school-conscious home buyers avoid making a costly
         mistake by first selecting the right Fairfax schools, and then by
-        cross-referencing available homes for sale with their chosen schools.
+        cross-referencing available homes for sale with their chosen schools.</p>
 
 
         <blockquote>
