@@ -14,7 +14,7 @@ css('sales.css') ?>
          $school_name = $post->post_name; ?>
        <h1><? the_title() ?></h1>
 
-       <div id=left>
+       <div id="left">
          <? the_content() ?>
     <? wp_reset_postdata();
      } ?>
@@ -39,17 +39,23 @@ css('sales.css') ?>
         -->
       </div>
 
-    <div id=right>
+    <div id="right">
     <img class="size-full wp-image-430" title="Discover the truth" src="http://fairfax.homebyschool.com/wp-content/uploads/2011/09/Buscar-01-color-e1317588780254.jpg" alt="Discover the truth about buying a home" width="199" height="156" align="center"/>
-      <p>Discover the truth about buying a home in 7 easy steps
-      </p>
-      <div id=testimonials><h2>Testimonials</h2></div>
-			<h3><em>"I never thought that buying a house could be complicated"</em></h3>
-			But knowing the issues is half the battle and it can make the difference between a super-stressful experience and going through the process with peace of mind."
-			<br>
-			<img class="size-full wp-image-434" title="Happy Client" src="http://fairfax.homebyschool.com/wp-content/uploads/2011/09/Cap-16-fin-ret-color-e1317589486141.jpg" alt="" width="100" height="152" />
-			Happy Client
-			
+      <div class=mycaption>Discover the truth about buying a home -
+      <br>in 7 easy steps
+      </div>
+      <p>&nbsp;
+      <div id="testimonials"><h2>Testimonials</h2>
+            <blockquote style="width:21;">
+            <img class="size-full wp-image-434" title="Happy Client" src="http://fairfax.homebyschool.com/wp-content/uploads/2011/09/Cap-16-fin-ret-color-e1317589486141.jpg" alt="" width="100" height="152" />
+            <strong>"I never thought that buying a house could be complicated...</strong>
+            <br>
+            But knowing the issues is half the battle and it can make the difference between a super-stressful experience and going through the process with peace of mind. This book IS piece of mind."
+            <br>
+            <i>- Happy Client</i>
+            </blockquote>
+            
+			</div>
     	</div>
 
 

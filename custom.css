@@ -24,7 +24,7 @@ body { background:#fff; font:13px/1.6 Verdana,Arial; color:#000 }
   background:rgba(255,255,255,.7); padding-bottom:50px }
 #content h2 { border-top:1px dotted #ddd; color:#333; padding-top:.3em; margin-bottom:10px;
 text-align:left; font-weight:normal; }
-#content h3 { text-align:left; margin:2.6em 0 1em; font-size:15px; }
+#content h3 {text-align:left; margin:2.6em 0 1em; font-size:15px; }
 #content a { text-decoration:none; color:#207AA7 }
 
 .post { padding:0; margin-top:1em }
@@ -47,7 +47,7 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
 
 #main p {width:40em; text-align:justify; margin-bottom:1.6em }
   
-#main ul { list-style:square; width:33em; background:#f6f6f6; padding:.6em;
+#main ul {list-style:square; width:33em; background:#f6f6f6; padding:.6em;
   padding-left:29px; border:1px dotted #ccc; margin-bottom:2em; 
   border-radius:5px; -moz-border-radius:5px }
   
@@ -70,13 +70,7 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
   padding-left:29px; border:1px dotted #ccc; margin-bottom:2em; 
   border-radius:5px; -moz-border-radius:5px }
   
-.yesyestable {border-collapse:collapse; width:400px}
-
-.yesyestable, .yesyesth, .yesyestd { border:1px solid black; }
-
-.yesyestd { padding:4px;}
-
-.yesyesthead .yytrtitle { text-align:center; background-color:#598D3F; }
+  
   
 #footer { background:#fff; color:#333; overflow:hidden; line-height:1.2; text-transform:none;
   font-size:13px; padding:0; margin:0 }

@@ -1,6 +1,54 @@
 /** * { background:rgba(255,0,0,.1) !important }/**/
 #main { overflow:hidden }
 
+#main table.yesyes {
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	max-width:40em;
+}
+#main table.yesyes th {
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #598D3F;
+	color: #ffffff;
+	font-size:120%;
+}
+#main table.yesyes td {
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+	vertical-align:center;
+	text-align:center;
+}
+#main table.yesyes td .subhead {
+	background-color: #598D3F;
+	color: #ffffff;
+}
+
+#main table.yesyes img {clear:both; border:0; box-shadow:0 0 0; -moz-box-shadow:0 0 0; -webkit-box-shadow:0 0 0; vertical-align:center; align:center;}
+
+#content h3 {clear:both;}
+
+#content img { display:block; float:left; margin:0 1em 1em 0; border:3px double #ddd;
+  box-shadow:0 3px 5px rgba(0,0,0,.4); -moz-box-shadow:0 3px 5px rgba(0,0,0,.4);
+  -webkit-box-shadow:0 3px 5px rgba(0,0,0,.4) }
+#content .mycaption {display:block; float:left; margin:0 0 1em 0; clear:both; color:#333; font-family:"Times New Roman", Times, serif;}
+
+#content blockquote { max-width:40em; float:left; background:rgba(255,255,255,.6);
+  padding:.6em; border-radius:5px; -moz-border-radius:5px; border:1px dotted #eee }
+  #content blockquote img { float:left; margin:0 1em 1em 0; border:3px double #ddd;
+    box-shadow:0 3px 5px rgba(0,0,0,.4); -moz-box-shadow:0 3px 5px rgba(0,0,0,.4);
+    -webkit-box-shadow:0 3px 5px rgba(0,0,0,.4) }
+  #content blockquote strong { display:block; margin-bottom:1em }
+  #content blockquote i { display:block; margin-top:1em; clear:both; color:#999 }
+
 #left { width:620px; float:left }
   ul#featured { list-style:none; width:auto; padding:.6em }
     #featured li { overflow:hidden; margin-bottom:1em }
