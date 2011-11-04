@@ -455,26 +455,30 @@ function standard_navigation($bIsPage, $bIsFooter) {
 				if($standard_options->large_social_icons && !$bIsFooter):
 					$menu_classes .= ' large_nav';
 				endif;
-				wp_nav_menu(
-					array(
-						'sort_column' => 'menu-order',
-						'menu_class' => $menu_classes,
-						'show_home' => 0,
-						'walker' => $standard_walker,
-						'depth' => $nav_depth,
-						'theme_location' => 'menu-1'
-					)
-				);
-				wp_nav_menu(
-					array(
-						'sort_column' => 'menu-order',
-						'menu_class' => $menu_classes,
-						'show_home' => 0,
-						'walker' => $standard_walker,
-						'depth' => $nav_depth,
-						'theme_location' => 'menu-2'
-					)
-				);
+				if ( !is_user_logged_in() ):
+					wp_nav_menu(
+						array(
+							'sort_column' => 'menu-order',
+							'menu_class' => $menu_classes,
+							'show_home' => 0,
+							'walker' => $standard_walker,
+							'depth' => $nav_depth,
+							'theme_location' => 'menu-1'
+						)
+					);
+				endif;
+				if ( is_user_logged_in() ):
+					wp_nav_menu(
+						array(
+							'sort_column' => 'menu-order',
+							'menu_class' => $menu_classes,
+							'show_home' => 0,
+							'walker' => $standard_walker,
+							'depth' => $nav_depth,
+							'theme_location' => 'menu-2'
+						)
+					);
+				endif;
 				wp_nav_menu(
 					array(
 						'sort_column' => 'menu-order',

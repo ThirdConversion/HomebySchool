@@ -23,10 +23,10 @@ get_header() ?>
 
     <p>Make sure to put the following email address on your address book so that
      our emails get through:
-    <br>adminhbs@homebyschool.com
+    <br>marina@homebyschool.com
 
     <p>Please remember, after your first few downloads, you'll receive The Guide
-    as a newsletter every other week. Please let us know if you want us to cover a
+    as a newsletter. Please let us know if you want us to cover a
     specific topic, and we'll be glad to do so.
 
     <p>Now, please share the love!
@@ -46,7 +46,7 @@ get_header() ?>
     <h2>Can't wait to receive your goodies?</h2>
     <p>You can download the first one here:
     <br>
-      <a href="http://fairfax.rightschoolrighthome.com/Portals/0/Reports/How%20to%20choose%20the%20Right%20School.pdf">How to choose the Right School</a>
+      <a href="http://fairfax.homebyschool.com/wp-content/uploads/2011/07/How-to-choose-the-Right-School-1_3.pdf">How to Choose the Right School</a>
   </div>
 </div>
 <? get_footer() ?>

@@ -7,3 +7,7 @@
 
 #main p { overflow:hidden }
 #main p img { float:left; margin-right:1.6em }
+
+.eMember_button {
+	margin-right:40px;
+}
