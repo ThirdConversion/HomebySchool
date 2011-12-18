@@ -16,6 +16,7 @@ get_header() ?>
         <li>Ensure that the guide doesn't go to your spam folder</li>
         <li>Share the love...</li>
     </ol>
+    <p>
 
     <h2>Ensure that the guide doesn't go to your spam folder</h2>
     <p>If you have spam blocking software on your computer or with your ISP
@@ -30,11 +31,12 @@ get_header() ?>
     specific topic, and we'll be glad to do so.
 
     <p>Now, please share the love!
+    <p>
 
     <h2>Share the love: Do you know anyone who could benefit from this guide?</h2>
     <p>Sure you do! Click on the link below to tell a friend. I'm sure they'll
     thank you for it! And I will too!
-    <p><a href="mailto:?Subject=You might find HomeBySchool.com interesting&amp;Body=http://fairfax.homebyschool.com">Email a friend</a>
+    <p><img src="http://fairfax.homebyschool.com/wp-content/uploads/2011/11/Talk-Bubble-Yellow.jpg" /> <a href="mailto:?Subject=You might find HomeBySchool.com interesting&amp;Body=http://fairfax.homebyschool.com">Email a friend</a>
 
     <p>Thanks again and welcome!
 

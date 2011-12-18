@@ -22,11 +22,6 @@ css('schools.css') ?>
     <? } ?>
 
 
-        <h2>Contact Us</h2>
-        <p class=glass>
-          <? //include 'contact-form.php' ?>
-        </p>
-
         <? $query = new WP_Query(array(
             'tax_query'=> array(
               array('taxonomy'=>'post_tag', 'terms'=>'featured-home', 'field'=>'slug'),
@@ -45,15 +40,23 @@ css('schools.css') ?>
               wp_reset_postdata() ?>
             </ul>
          <? } ?>
+
+
+        <h2>Contact Us</h2>
+        <!-- <p  class="glass" >  --> 
+          <? //include 'contact-form.php' ?>
+          <? include 'hcard-marina-brito.php' ?>
+        </p>
     </div>
 
     <div id=right>
 
 <!-- [MB]This section needs Javascript Philosopher magic -->
       <h2>Find a Home</h2>
-      <a class="glass" href="/special-map/?layer%3Alifestyle%3Aelementary%5Fschools%5Fpublic%2Etoggle=on&amp;layer%3Alistings%2Etoggle=on&amp;layer%3Alifestyle%3Ahigh%5Fschools%5Fpublic%2Etoggle=on&amp;layer%3Alistings%2EpropTypes=Patio%20Home%2CSemi%2DDetached%2CAttach%2FRow%20Hse%2CMid%2DRise%205%2D8%20Floors%2COther%2CDuplex%2CHi%2DRise%209%2B%20Floors%2CGarden%201%2D4%20Floors%2CTownhouse%2CDetached&amp;layer%3Alifestyle%3Amiddle%5Fschools%5Fpublic%2Edistance=0%2E1&amp;map%2Eview=Road&amp;map%2Ezoom=13&amp;app%3Ahomes%3Afilter%2Egeography=4e3c5c75%2Df354%2Ddfe4%2D2523%2Dac1038150ed7%7C4e5ea951%2Da4ff%2Dc3c4%2Db5c3%2Dac103816aec8%3AcustomArea&amp;layer%3Alifestyle%3Amiddle%5Fschools%5Fpublic%2Etoggle=on&amp;map%2Ecenter=38%2E889414%2C%2D77%2E318267&amp;layer%3Alifestyle%3Aelementary%5Fschools%5Fpublic%2Edistance=0%2E1&amp;layer%3Alifestyle%3Agrocery%2Etoggle=on&amp;layer%3Alifestyle%3Ahospitals%2Etoggle=on&amp;area%3Acustom%3A4e3c5c75%2Df354%2Ddfe4%2D2523%2Dac1038150ed7%7C4e5ea951%2Da4ff%2Dc3c4%2Db5c3%2Dac103816aec8%2Etoggle=on&amp;layer%3Alifestyle%3Ahigh%5Fschools%5Fpublic%2Edistance=0%2E1#sm-anchor" target="_blank"><img class="aligncenter size-full wp-image-333" title="Home_search_icon" src="http://fairfax.homebyschool.com/wp-content/uploads/2011/09/Home_search_icon.png" alt="Find a home" width="65" height="65" />
-        Click for The Only Interactive Map where you can
-        Find a Home by School Boundary
+      <a class="glass" href="/special-map/?layer%3Alifestyle%3Amiddle%5Fschools%5Fpublic%2Etoggle=on&layer%3Alifestyle%3Aelementary%5Fschools%5Fpublic%2Etoggle=on&layer%3Alistings%2Etoggle=on&layer%3Alifestyle%3Ahigh%5Fschools%5Fpublic%2Ekeyword=Oakton&layer%3Alistings%2EpropTypes=Hi%2DRise%209%2B%20Floors%2CMid%2DRise%205%2D8%20Floors%2CGarden%201%2D4%20Floors%2CTownhouse%2CDetached&app%3Ahomes%3Afilter%2Egeography=4e3c5c75%2Df354%2Ddfe4%2D2523%2Dac1038150ed7%7C4ed654f8%2Da611%2D5aa4%2D0594%2Dac1038167fac%3AcustomArea&layer%3Alifestyle%3Amiddle%5Fschools%5Fpublic%2Edistance=0%2E1&app%3Ahomes%2Epanel=open&layer%3Alifestyle%3Ahigh%5Fschools%5Fpublic%2Edistance=0%2E1&layer%3Alifestyle%3Aelementary%5Fschools%5Fpublic%2Edistance=0%2E05&area%3Acustom%3A4e3c5c75%2Df354%2Ddfe4%2D2523%2Dac1038150ed7%7C4ed654f8%2Da611%2D5aa4%2D0594%2Dac1038167fac%2Etoggle=on&map%2Ezoom=13&map%2Ecenter=38%2E895053%2C%2D77%2E334747&layer%3Alifestyle%3Agrocery%2Etoggle=on&layer%3Alifestyle%3Ahospitals%2Etoggle=on&map%2Eview=Road&layer%3Alifestyle%3Ahigh%5Fschools%5Fpublic%2Etoggle=on#sm-anchor" target="_blank"><img class="aligncenter size-full wp-image-560" title="Home_search_icon" src="http://fairfax.homebyschool.com/wp-content/uploads/2011/11/Magnifying-Glass-150x96.png" alt="Find a home" />
+        Search ALL</br>
+        Homes for Sale</br>
+        by School Boundary
         <button class="css3button">Find a Home</button>
       </a>
 

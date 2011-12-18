@@ -2,7 +2,7 @@
 #main { overflow:hidden }
 
 #left { width:620px; float:left }
-  ul#featured { list-style:none; width:auto; padding:.6em }
+  ul#featured { list-style:none; width:auto; padding:.6em; width: 500px }
     #featured li { overflow:hidden; margin-bottom:1em }
     #featured img { float:left; margin-right:1em }
     #featured .sharing { display:none }
