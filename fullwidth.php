@@ -4,17 +4,13 @@
 		<div id="main" class="fullwidth">
 			<?php if (have_posts()) : $count = 0; ?>
 				<?php while (have_posts()) : the_post(); $count++; ?>
-					<div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
+					<div id="post-<?php the_ID(); ?>" >
 						<?php edit_post_link('edit','<span class="the_edit_link">','</span>') ?>
-						<h2 class="title">
-							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+						<h1 class="title">
 								<?php the_title(); ?>
-							</a>
-						</h2>
-						<div class="entry" id="content-<?php the_ID(); ?>">
-							<?php the_content(); ?>
-							<div class="clear"></div>
-						</div>
+						</h1>
+						<?php the_content(); ?>
+						<div class="clear"></div>
 					</div>
 				<?php endwhile; 
 			else: ?>

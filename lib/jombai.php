@@ -73,36 +73,6 @@ function create_type_school(){
   register_post_type('school', $args);
 }
 
-// Add custom post type: Agent
-add_action('init', 'create_type_agent');
-function create_type_agent(){
-  $labels = array(
-    'name' => __('Agents'),
-    'singular_name' => __('Agent'),
-    'add_new' => __('Add New'),
-    'add_new_item' => __('Add New Agent'),
-    'edit_item' => __('Edit Agent'),
-    'new_item' => __('New Agent'),
-    'view_item' => __('View Agent'),
-    'search_items' => __('Search Agents'),
-    'not_found' => __('No agents found'),
-    'not_found_in_trash' => __('No agents found in Trash'),
-    'parent_item_colon' => ''
-  );
-  $args = array(
-    'labels' => $labels,
-    'public' => true,
-    'query_var' => true,
-    'rewrite' => true,
-    'hierarchical' => false,
-    'menu_position' => 5,
-    'has_archive' => true,
-    'supports' => array('title', 'thumbnail', 'excerpt', 'editor'),
-    'taxonomies' => array()
-  );
-  register_post_type('agent', $args);
-}
-
 /**
  * Logging console.
  * Will encode the arguments as JSON objects and pass to the scripting console

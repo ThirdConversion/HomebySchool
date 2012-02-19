@@ -19,12 +19,14 @@ get_header() ?>
     <p>
 
     <h2>Ensure that the guide doesn't go to your spam folder</h2>
-    <p>If you have spam blocking software on your computer or with your ISP
+    <img class="size-full wp-image-829" title="Email OK icon" src="http://fairfax.homebyschool.com/wp-content/uploads/2012/02/Email-OK-icon1.jpg" alt="Check your email" width="72" height="60" /><p>If you have spam blocking software on your computer or with your ISP
     you may not get The No-Tears Guide to Moving to Fairfax.
 
     <p>Make sure to put the following email address on your address book so that
      our emails get through:
-    <br>marina@homebyschool.com
+    <br><ul>
+        marina@homebyschool.com
+        </ul>
 
     <p>Please remember, after your first few downloads, you'll receive The Guide
     as a newsletter. Please let us know if you want us to cover a
@@ -45,10 +47,10 @@ get_header() ?>
       <? include 'hcard-marina-brito.php'; ?>
     </div>
 
-    <h2>Can't wait to receive your goodies?</h2>
+    <h2>P.S. Can't wait to receive your goodies?</h2>
     <p>You can download the first one here:
-    <br>
-      <a href="http://fairfax.homebyschool.com/wp-content/uploads/2011/07/How-to-choose-the-Right-School-1_3.pdf">How to Choose the Right School</a>
+    <br> 
+      <a href="http://fairfax.homebyschool.com/wp-content/uploads/2011/07/How-to-choose-the-Right-School-1_3.pdf"><img src=http://fairfax.homebyschool.com/wp-content/themes/StandardTheme_260/images/How%20to%20choose%20among%20Fairfax%20County%20Schools.jpg> How to Choose the Right School</a>
   </div>
 </div>
 <? get_footer() ?>

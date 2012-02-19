@@ -18,7 +18,7 @@ body { background:#fff; font:13px/1.6 Verdana,Arial; color:#000 }
 #logo { padding-left: 5px }
 #logo img { vertical-align:bottom }
 #slogan { clear:left; color:#598D3F; font:italic 18px/22px Georgia,'Times New Roman',serif;
-  letter-spacing:-0.8px; margin:0 0 8px 288px } 
+  letter-spacing:-0.8px; margin:0 0 8px 88px } 
 
 #content { margin-top:0; background:url(images/70-percent-white.png) /* IE sucks - ha ha :P*/;
   background:rgba(255,255,255,.7); padding-bottom:50px }
@@ -57,7 +57,7 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
   .vcard img { float:left; margin-right:1.6em }
   .vcard .fn, .vcard .email, .vcard .pn, .vcard .org, .vcard .adr, .vcard .title { display:block }
   .vcard .adr, .vcard .org { font:italic 12px sans; color:#999 }
-  .vcard .title { color:#999 }
+  .vcard .title { color:#999;font-size:12px; }
   #signature .fn { font:30px 'Waiting for the Sunrise'; letter-spacing:.035em }
   #signature .vcard .email,
   #signature .vcard .pn,
@@ -123,7 +123,7 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
   border-collapse:separate; border-radius:5px; -moz-border-radius:5px }
 #main th { border-bottom:1px dotted #ccc; padding:.6em 1em }
 #main td { text-align:center; vertical-align:middle }
-  #main td:first-child { text-align:left }
+  #main td.first { text-align:left !important }
   #main td img { vertical-align:middle; margin:.6em 1em }
   #main td[colspan] { text-align:center }
     #main td[colspan] header { border-bottom:1px dotted #ccc; font-variant:small-caps }
@@ -132,11 +132,96 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
   background:#f6f6f6; width:500px; margin-bottom:2em }
 #main .bento-box ul { margin:0; border:0; background:none; border-radius:0; -moz-border-radius:0 }
   #main .bento-box ul li { margin:.6em 0; color:#444 }
-  #main .bento-box li:first-child { list-style:none; font:bold 1.2em 'Quattrocento Sans'; 
+  #main .bento-box li.first { list-style:none; font:bold 1.2em 'Quattrocento Sans'; 
     margin:.6em 0; color:#000 } 
 #main .bento-box .left-box { float:left; width:212px; border-right:1px dotted #ccc }
 #main .bento-box .right-box { float:left; width:212px; border-left:1px dotted #ccc; margin-left:-1px }
 #main .bento-box .bottom-box { clear:both; overflow:hidden; border-top:1px dotted #ccc;
   width:464px }
   #main .bento-box .bottom-box li { float:left; list-style:none; margin-right:2em }
-  #main .bento-box .bottom-box li:first-child { float:none }
+  #main .bento-box .bottom-box li.first { float:none }
+
+.widget ul.gform_fields li {
+	border-top: none;
+}
+.gform_wrapper#gform_wrapper_1 .top_label .gfield_label {
+	margin: 10px 0 0 0;
+}
+.gform_wrapper#gform_wrapper_1 .top_label .ginput_container {
+	margin-top: -10px;
+}
+div.agent-page img.profile {
+	float:right;
+	padding:10px;
+	background:#fbfbfb;
+	border:1px solid #e7e7e7;
+	margin: 0 5px 0 20px;
+	-webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    2px 2px 5px rgba(50, 50, 50, 0.4);
+	box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.4);
+}
+div.agent-page .agentDesc {
+	width:440px;
+}
+div#main.agent-page p {
+	width:100%;
+	text-align:left;
+}
+div.agent-page #google-map {
+	clear:both;
+	float:left;
+	width:206px;
+}
+div.agent-page #google-map img {
+	padding:3px;
+	background:#fbfbfb;
+	border:1px solid #e7e7e7;
+	-webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    2px 2px 5px rgba(50, 50, 50, 0.4);
+	box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.4);
+}
+div.agent-page #agent-details {
+	float:right;
+	width:390px;
+}
+div.agent-page #agent-details p {
+	margin-bottom:5px;
+}
+#main.agent-page ul {
+	width:340px;
+	background:transparent;
+	border:none;
+	padding:none;
+	padding-left:29px;
+	margin-bottom:0;
+}
+#main.agent-page div.schools {
+	list-style: square;
+	background: #F6F6F6;
+	padding: .6em;
+	border: 1px dotted #CCC;
+	margin-bottom: 2em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-image: initial;
+}
+.widget-box .textwidget {
+	width:160px;
+	margin:50px auto 0;
+	border: 2px solid;
+	font-size: 11px;
+	line-height:13px;
+	color: #424242;
+	font-family: verdana, arial, helvetica, sans-serif;
+	text-align: left;
+	padding:10px;
+}
+.widget-box .textwidget p {
+	margin-bottom:5px;
+}
+.widget-box .textwidget p:last-child {
+	text-align:center;
+}
+.widget-box .textwidget img {
+	margin:5px 0 5px 0;
+}

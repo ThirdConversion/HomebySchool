@@ -15,12 +15,17 @@
       </div>
 
       <div class=section id=links_footer>
+        <?php /* previous Read More section -----
         <h6>Read More</h6>
         <ul>
           <li><a href="/additional-content">Additional Content</a>
           <li><a href="/additional-content">Additional Content</a>
-        </ul>
-
+        </ul> */ ?>
+        <h6>What bugs you?</h6>
+        <img src="/wp-content/uploads/2012/02/1277007_ladybird-e1328769248824.jpg" alt="What bugs you?" />
+         Does anything on this website bug you?  Nothing is too small or too big. If there is something we can fix, we'd love to know.
+         <br>
+         <a href="mailto:marina@homebyschool.com">Click here to report a bug</a>
       </div>
 
       <div class=section id=social_footer>
@@ -33,7 +38,7 @@
       <div class=section id=contact_footer>
         <h6>Contact Us</h6>
         <? include 'hcard-marina-brito.php' ?>
-
+        <img src="http://fairfax.homebyschool.com/wp-content/uploads/2012/02/REMAX_balloon_transparent_opt-1.gif">
         <div id=copy>&copy; <?= date('Y'); ?> Third Conversion LLC</div>
       </div>
     </div>

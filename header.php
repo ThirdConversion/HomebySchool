@@ -11,7 +11,7 @@
     <link  href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise:regular" rel="stylesheet" type="text/css" />
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php standard_feed_url(); ?>" />
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
+                  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 		<!--[if IE 7]>
 			<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie7.css" />
 		<![endif]-->
