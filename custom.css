@@ -225,3 +225,6 @@ div.agent-page #agent-details p {
 .widget-box .textwidget img {
 	margin:5px 0 5px 0;
 }
+#content-969 a:first-child {
+	display:none;
+}

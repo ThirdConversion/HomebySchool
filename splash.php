@@ -16,7 +16,7 @@
         <h1 id=intro>Would you make kids go to <em>any</em> school<br />
         &mdash;or to the right school for their needs?</h1>
 
-      <a id=download class=glass href="/free-guide">
+      <a id=download class=glass href="/free-guide-moving-to-fairfax-va/">
         <img src="<?php bloginfo('template_url') ?>/images/No-Tears Guide.jpg" alt="No-Tears Guide to Moving to Fairfax, VA" />
         The No-Tears Guide
         <i>to</i>
@@ -34,7 +34,7 @@
         assignments are very strict).
 
         <p>This is why most school-conscious home buyers avoid making a costly
-        mistake by first selecting the right Fairfax schools, and then by
+        mistake by first selecting the right Fairfax County schools, and then by
         cross-referencing available homes for sale with their chosen schools.</p>
 
 
@@ -44,7 +44,7 @@
          that really helps people navigate this area.</strong>
          Fairfax County is huge; it&rsquo;s impossible to know where to start.
          It was very labor intensive to drive around looking at homes and say,
-         &lsquo;This home is in Fairfax school district, this school was rated
+         &lsquo;This home is in this Fairfax school district, this school was rated
          a 9 and this is a 2&rsquo;.&rdquo;
          <i>&mdash; Erin Clifton, Chantilly, VA; Military Mom</i>
         </blockquote>
@@ -67,7 +67,7 @@
           <p>You would hope that someone would have already put together a step-by-step
           guide &mdash;with the right tools&mdash; to help you find a home by school?
 
-          <p>We did!  And we call it <q>The No-Tears Guide to Moving to Fairfax</q></p>
+          <p>We did!  And we call it <q>The No-Tears Guide to Moving to Fairfax, VA</q></p>
 
           <h2>The No-Tears Guide to Moving to Fairfax, VA</h2>
 
@@ -75,30 +75,39 @@
           decision about your move; there is detailed information about:</p>
 
           <div id=guides>
-            <a id=rightschool href="/free-guide#school">
+            <a id=rightschool href="/free-guide-moving-to-fairfax-va/">
               <img src="<?php bloginfo('template_url') ?>/images/How to choose among Fairfax County Schools.jpg" alt="How to choose among Fairfax County Schools" />
               <strong>How to choose the right school</strong>
               Your guide to Fairfax County Public Schools'
               Scores, Ratings, and Special Programs.
             </a>
-            <a id=affordability href="/free-guide#affording">
+            <a id=affordability href="/free-guide-moving-to-fairfax-va/">
               <img src="<?php bloginfo('template_url') ?>/images/Fairfax VA Home Affordability Map by Fairfax High School boundary.jpg" alt="Fairfax VA Home Affordability Map by Fairfax High School boundary" />
               <strong>How much you can afford</strong>
               The time & money-saving Fairfax VA Home Affordability Map
               is an easy-to-read map of home values by Fairfax High School District.
             </a>
-            <a id=homebyschool href="/free-guide#home">
+            <a id=homebyschool href="/free-guide-moving-to-fairfax-va/">
               <img src="<?php bloginfo('template_url') ?>/images/How to find a Home for Sale in Fairfax VA - by Fairfax School Boundary.jpg" alt="How to find a Home for Sale in Fairfax VA - by Fairfax School Boundary" />
               <strong>How to find a home by school</strong>
-              A unique way of searching for homes based on their assigned Fairfax County Schools Boundary.
+              A map-based search Fairfax County Real Estate based on its assigned Fairfax County Schools Boundary.
             </a>
           </div>
+     
+          <h2>How is The No-Tears Guide different than traditional "Homes for Sale" websites?</h2>
 
-          <p>See the big red button below? If you click on that you will be taken
-           to the next page where you can sign up for the FREE No-Tears Guide to
+          <p><strong>The No-Tears Guide to Moving to Fairfax, VA</strong> helps you choose the area where you want to live based on your school choices, your budget, your transportation needs, and your dream home characteristics.</p>
+
+	  <p>Other websites don't give you any background information to help you choose schools or areas; they only show you a long list of homes for sale and assume you already know where you want to live.</p>
+
+	  <p>So why make it more complicated than it needs to be? Get The No-Tears Guide here:</p>
+
+          <h2>See the big red button below?</h2>
+           <p>When you click on the button you will be taken
+           to the next page where you can sign up for The FREE No-Tears Guide to
            Moving to Fairfax, VA.</p>
 
-          <a id=gettheguide href="/free-guide" class=css3button>Get the guide</a>
+          <a id=gettheguide href="/free-guide-moving-to-fairfax-va/" class=css3button>Get the guide</a>
 
           <p>Or, if you want to get started with reading some content then click
           on any of these links:</p>

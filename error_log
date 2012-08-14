@@ -9,3 +9,7 @@
 [17-Feb-2012 14:18:13] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
 [17-Feb-2012 14:49:24] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
 [17-Feb-2012 23:46:37] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
+[03-Mar-2012 12:05:47] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
+[09-May-2012 22:25:25] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
+[08-Jun-2012 14:32:00] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
+[08-Jun-2012 14:32:00] PHP Fatal error:  Call to undefined function  get_header() in /home2/comprarc/public_html/fairfaxhbs/wp-content/themes/StandardTheme_260/index.php on line 2
