@@ -23,8 +23,14 @@
         Moving to Fairfax, VA
         <button class=css3button>Free Download</button>
       </a>
+ 
+     <div id=blurb>
 
-      <div id=blurb>
+        <!-- <iframe id=video src="http://www.youtube.com/embed/dxLGWZRqgBE?fs=1&amp;modestbranding=1&amp;rel=0" allowfullscreen></iframe>  -->
+
+       <iframe id=video scrolling="no" width="460" height="259" src="http://comprarcasausa.com/custom-video-player?v=ZHhMR1daUnFnQkV8NDYweDI1OXxvcmlnaW5hbHxodHRwOi8vZmFpcmZheC5ob21lYnlzY2hvb2wuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDEyLzA4L1dlbGNvbWUtVGh1bWJuYWlsLTIuanBnfDEwMTAxMTB8aHR0cDovLywsLCx0ciw3LDB8fDg1&amp;bgc=FFF" frameborder="0"></iframe>
+
+        <h3>Would you make kids go to <em>any</em> school, or to the right school for their needs?</h3>
         <p>Many people who relocate to the Washington, DC metro area (which includes
         Fairfax County, VA), are concerned with finding a home by school boundary.</p>
 
@@ -85,7 +91,7 @@
               <img src="<?php bloginfo('template_url') ?>/images/Fairfax VA Home Affordability Map by Fairfax High School boundary.jpg" alt="Fairfax VA Home Affordability Map by Fairfax High School boundary" />
               <strong>How much you can afford</strong>
               The time & money-saving Fairfax VA Home Affordability Map
-              is an easy-to-read map of home values by Fairfax High School District.
+              is an easy-to-read map of home values by Fairfax School Boundaries.
             </a>
             <a id=homebyschool href="/free-guide-moving-to-fairfax-va/">
               <img src="<?php bloginfo('template_url') ?>/images/How to find a Home for Sale in Fairfax VA - by Fairfax School Boundary.jpg" alt="How to find a Home for Sale in Fairfax VA - by Fairfax School Boundary" />
@@ -126,6 +132,8 @@
 
           <p>P.S. If at any point you have ANY question, please give us a call
           &mdash; we will be very happy to answer it.  No strings attached.
+
+          <p>P.P.S. Yes, We're Realtors®! This website is proudly brought to you by RE/MAX Premier.
 
           <p>Happy house hunting!
         </div>

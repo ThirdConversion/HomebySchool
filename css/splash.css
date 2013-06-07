@@ -34,4 +34,5 @@ a#download { float:right; margin-top:-86px; width:295px }
 #guide_thumb { float:left; margin:0 1.6em 1.6em 0; border:1px solid #666;
   -moz-box-shadow:1px 1px 3px rgba(0,0,0,.6); box-shadow:1px 1px 3px rgba(0,0,0,.6);
   -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.6) }
-  
+
+#video { width:460px; height:259px; border:none; margin:0; padding:15px 0 }

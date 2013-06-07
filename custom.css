@@ -46,6 +46,7 @@ h2 { font-size:20px } h3 { font-size:18px } h4 { font-size:14px } h5, h6 { font-
 .the_edit_link:hover { background-color:rgba(0,0,0,.4) }
 
 #main p {width:40em; text-align:justify; margin-bottom:1.6em }
+#main p.wp-caption-text {margin: 0; padding: 0; font-size: 11px; text-align: center; width:100%}
   
 #main ul {list-style:square; width:33em; background:#f6f6f6; padding:.6em;
   padding-left:29px; border:1px dotted #ccc; margin-bottom:2em; 
@@ -228,3 +229,5 @@ div.agent-page #agent-details p {
 #content-969 a:first-child {
 	display:none;
 }
+
+#comments .comment-entry p {margin: 0 0 10px 0;}

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes() ?>>
 	<head profile="http://gmpg.org/xfn/11">
-		<?php include('seotitles.php'); ?>
+		<title><?php wp_title(''); ?></title>
+		<?php //include('seotitles.php'); ?>
 
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-		<meta name="description" content="<?php standard_meta_description(); ?>" />
+		
 
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css' />

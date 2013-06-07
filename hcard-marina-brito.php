@@ -1,7 +1,7 @@
           <div id="hcard-Marina-Brito" class=vcard>
-            <img src="<?php bloginfo('template_url') ?>/images/Marina_Chase_80.png" class=photo alt="Photo of Marina and Chase" />
+            <img src="<?php bloginfo('template_url') ?>/images/Marina_Chase_80.png" class=photo alt="Photo of Marina Brito" />
             <span class="fn n">Marina Brito</span>
-            <span class=title>Realtor&reg;</span>
+            <span class=title>Realtor&reg;, RE/MAX Premier,</br>Home by School Specialist</span>
             <a href="mailto:marina@homebyschool.com" class=email>marina@homebyschool.com</a>
             <a href="tel:1-703-480-6575" class=pn>(703) 480-6575</a>
 
